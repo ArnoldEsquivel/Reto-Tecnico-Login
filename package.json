@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "run-p dev:**",
+    "dev:server": "nodemon server.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
   },
   "keywords": [
     "React",
@@ -20,7 +23,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
-    "mongoose": "^7.3.0",
+    "mongoose": "^7.3.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22",
     "npm-run-all": "^4.1.5"
   }
