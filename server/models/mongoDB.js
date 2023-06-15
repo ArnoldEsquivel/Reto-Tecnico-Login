@@ -1,11 +1,12 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
-const uri = process.env.MONGODBATLAS_URI || 'mongodb://localhost:27017/RetoTecnico';
+const uri = process.env.MONGODB_URI;
 
 mongoose.set('strictQuery', false);
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+    useUnifiedTopology: false,
 })
     .then(() => console.log('MongoDB Connected'))
     .catch(err => console.log(err));
