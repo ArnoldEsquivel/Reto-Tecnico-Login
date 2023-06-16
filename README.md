@@ -40,11 +40,11 @@ Respuestas de las preguntas tecnicas:
          -  Uses asynchronous, non-blocking operations, allowing multiple requests to be processed simultaneously without significant delays
     
     React Framework:
-        - a.What is React.js and why is it popular for building user interfaces?
+      - a.What is React.js and why is it popular for building user interfaces?
           - It is a Javascript library that simplifies the use of reactive components, in addition to being used to create SPA's, part of what has made it very popular.
         
-        b. Explain the concept of virtual DOM and its advantages.
-            The Virtual DOM is an in-memory representation of the DOM element structure, which allows for efficient and fast updates in the user interface.
-        
-        c. How does React handle component lifecycle events?
-            React handles component lifecycle events using predefined methods, such as componentDidMount or useEffect, componentDidUpdate or useState, and componentWillUnmount, to execute specific actions at different stages of a component's lifecycle.
+       - b.Explain the concept of virtual DOM and its advantages.
+         - The Virtual DOM is an in-memory representation of the DOM element structure, which allows for efficient and fast updates in the user interface.
+    
+       - c.How does React handle component lifecycle events?
+          - React handles component lifecycle events using predefined methods, such as componentDidMount or useEffect, componentDidUpdate or useState, and componentWillUnmount, to execute specific actions at different stages of a component's lifecycle.
