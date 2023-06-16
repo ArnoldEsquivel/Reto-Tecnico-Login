@@ -11,8 +11,7 @@ Instalar dependencias:
     - npm i
     
    - Front
-    - cd /client/
-    - npm i 
+     - cd /client/
 
 Una vez esten instaladas las dependencias del back y del front corremos el proyecto en el entorno de desarrollo:
   - npm run dev
