@@ -19,12 +19,12 @@ Una vez esten instaladas las dependencias del back y del front corremos el proye
 
 
 Respuestas de las preguntas tecnicas:
-    JavaScript Language:
+  - JavaScript Language:
         a. What is the difference between null and undefined in JavaScript?
             Null is a type of value that is intentionally declared to indicate that something is empty, but declared, and undefined refers to the fact that the declaration of the object or function is not recognized
 
         b. Explain the concept of closures in JavaScript with an example.
-            Is when a child function has access to the values ​​of a parent function, very similar to encapsulation
+            Is when a child function has access to the values of a parent function, very similar to encapsulation
 
         c. What is the event loop in JavaScript and how does it work?
             Handles asynchronous tasks using a stack and queue, as the tasks complete they are executed without blocking the main code
