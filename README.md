@@ -1,12 +1,12 @@
-El proyecto esta creado en un monorepo para facilitar el manejo tando de back como front.
-Se usa la dependencia de npm nom-run-all para ejecutar ambos servicios en la misma terminal.
+The project is created in a monorepo to facilitate handling both back and front.
+The npm dependency nom-run-all is used to run both services in the same terminal.
 
-Instalacion del Proyecto:
+Project Installation:
 
-Clonar de este repositiorio:
+Clone this repository:
   - git clone https://github.com/ArnoldEsquivel/Reto-Tecnico-Login.git
 
-Instalar dependencias:
+Install dependencies:
   - Back
     - npm i
     
@@ -14,7 +14,7 @@ Instalar dependencias:
      - cd /client/
      - npm i
 
-Una vez esten instaladas las dependencias del back y del front corremos el proyecto en el entorno de desarrollo:
+Once the back and front dependencies are installed, we run the project in the development environment:
   - npm run dev
 
 
