@@ -7,9 +7,10 @@ Clonar de este repositiorio:
   - git clone https://github.com/ArnoldEsquivel/Reto-Tecnico-Login.git
 
 Instalar dependencias:
-  Back
+  *Back
     - npm i
-   Front
+    
+   *Front
     - cd /client/
     - npm i 
 
